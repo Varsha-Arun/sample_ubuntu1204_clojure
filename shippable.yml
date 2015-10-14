@@ -9,9 +9,11 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
+archive: trule
+
 # Running the test with Leiningen
 script:
   - cd sample
   - lein test2junit
 
-arechive: true
+
