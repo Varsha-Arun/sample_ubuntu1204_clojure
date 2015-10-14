@@ -9,7 +9,7 @@ before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
-archive: trule
+archive: trule:
 
 # Running the test with Leiningen
 script:
